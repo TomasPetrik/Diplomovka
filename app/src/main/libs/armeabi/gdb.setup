@@ -1,0 +1,3 @@
+set solib-search-path C:/Users/Tomas/Documents/_diplomovka/android_app/app/src/main/obj/local/armeabi
+source D:/Downloads_Web/android-ndk-r10e/prebuilt/common/gdb/common.setup
+directory D:/Downloads_Web/android-ndk-r10e/platforms/android-15/arch-arm/usr/include C:/Users/Tomas/Documents/_diplomovka/android_app/app/src/main/jni/jpeg8d C:/Users/Tomas/Documents/_diplomovka/android_app/app/src/main/jni/ImageProc D:/Downloads_Web/android-ndk-r10e/sources/cxx-stl/system

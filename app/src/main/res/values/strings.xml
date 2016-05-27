@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Sport For TV</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="String0001">Prihlásenie/Registrácia</string>
+    <string name="String0002">Základné nastavenia</string>
+    <string name="String0003">Prihlásenie</string>
+    <string name="String0004">Registrácia</string>
+    <string name="String0005">Prihlásiť</string>
+    <string name="String0006">Registrovať</string>
+    <string name="String0007">Prejsť na registráciu</string>
+    <string name="String0008">Prejsť na prihlásenie</string>
+    <string name="String0009">Pokračovať</string>
+
+    <string name="String0010">Stream data</string>
+    <string name="String0011">Stop stream</string>
+    <string name="String0012">Prepnúť kameru</string>
+    <string name="String0013">Srdcové zóny</string>
+    <string name="String0014">Opätovným stlačením zastaviť nahrávanie</string>
+
+    <string name="String0020">Skontrolujte prosím zadané údaje !</string>
+    <string name="String0021">Nesprávne prihlasovacie údaje !</string>
+    <string name="String0022">Nepodarilo sa odoslať trasu !</string>
+    <string name="String0023">Registrácia pod zadaným emailom nieje možná !</string>
+    <string name="String0024">Konto pod zadaným emailom už existuje !</string>
+    <string name="String0025">Nebol si pozvaný !</string>
+
+    <string name="String0030">Failed connect to DBS !</string>
+
+    <string name="String0040">Internetové pripojenie nie je dostupné. Overte pripojenie a pokus opakujte.</string>
+    <string name="String0041">GPS lokalizácia je vypnutá. Chcete aktivovať GPS modul teraz ?</string>
+    <string name="String0042">Nastaviť</string>
+
+    <string name="String0060">Povolenia TV</string>
+    <string name="String0061">Ovládanie nahrávania</string>
+    <string name="String0062">Prepínanie kamery</string>
+    <string name="String0063">Odosielanie správ</string>
+
+    <string name="String0065">Stav TV</string>
+    <string name="String0066">Parametre cyklistu</string>
+
+    <string name="String0070">N/A</string>
+
+    <string name="String0080">Vek</string>
+    <string name="String0081">Hmotnosť</string>
+    <string name="String0082">Nevybrané</string>
+    <string name="String0083">Muž</string>
+    <string name="String0084">Žena</string>
+    <string name="String0085">Pohlavie</string>
+
+    <string name="String0090">Login</string>
+    <string name="String0091">Heslo</string>
+    <string name="String0092">Heslo znova</string>
+    <string name="String0093">Email</string>
+    <string name="String0094">Prezívka</string>
+
+    <string name="String0100">Opt0</string>
+    <string name="String0101">Opt1</string>
+    <string name="String0102">Opt2</string>
+    <string name="String0103">Opt3</string>
+
+    <!-- ant default strings -->
+
+    <string name="menu_reset">Reset Connection</string>
+    <string name="no_activities_available">No Activities Available</string>
+    <string-array name="device_types">
+        <item>Bike Power</item>
+        <item>Controllable Device</item>
+        <item>Fitness Equipment</item>
+        <item>Blood Pressure</item>
+        <item>Geocache</item>
+        <item>Environment</item>
+        <item>Weight Scale</item>
+        <item>Heart Rate</item>
+        <item>Bike Speed and Cadence</item>
+        <item>Bike Cadence</item>
+        <item>Bike Speed</item>
+        <item>Stride-based Speed and Distance</item>
+    </string-array>
+
+    <string-array name="gender_type">
+        <item>Muž</item>
+        <item>Žena</item>
+    </string-array>
+
+
+
+    <string name="label_multiDeviceSearchButton">Start Search</string>
+    <string name="searchingText">Searching for devices&#8230;</string>
+    <string name="label_alreadyConnected">Already Connected Devices:</string>
+    <string name="label_foundDevices">Devices Found In Scan:</string>
+    <string name="label_selectAll">Select All</string>
+    <string name="label_deviceTypeFilter">Select Device Types to Search:</string>
+    <string name="label_RSSI">RSSI: </string>
+
+</resources>

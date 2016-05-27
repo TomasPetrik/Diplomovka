@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:popupTheme="@style/AppTheme.PopupOverlay"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/grey_dark">
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grey_dark"
+        android:id="@+id/nav_header_container"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tb_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.XL"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Tomas Petrik"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tb_connected"
+            android:layout_marginRight="5dp"
+            android:singleLine="true"
+            android:lines="1"
+            />
+
+
+        <ImageView
+            android:id="@+id/tb_connected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tb_tv_watching"
+            android:src="@drawable/connection_icon_selector" />
+
+        <ImageView
+            android:id="@+id/tb_tv_watching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/tb_logout"
+            android:src="@drawable/watching_icon_selector" />
+
+
+        <ImageView
+            android:id="@+id/tb_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_stroke_1dp_padding_10dp"
+            android:src="@mipmap/ico_logout"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

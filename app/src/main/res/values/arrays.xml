@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array_settings">
+        <item></item>
+        <item>@string/String0100</item>
+        <item>@string/String0101</item>
+        <item>@string/String0102</item>
+        <item>@string/String0103</item>
+    </string-array>
+
+    <integer-array name="integer_array_settings">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="string_gender_type">
+        <item>@string/String0082</item>
+        <item>@string/String0083</item>
+        <item>@string/String0084</item>
+    </string-array>
+
+    <integer-array name="integer_gender_type">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+</resources>
+

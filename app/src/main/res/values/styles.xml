@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/grey_light</item>
+        <item name="colorPrimaryDark">@color/grey_dark</item>
+        <item name="colorAccent">@color/intro_green</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SwitchDrawable" parent="Material.Widget.Switch">
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="IntroEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_edit_text_intro</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:padding">5dp</item>
+
+    </style>
+
+    <style name="IntroSpinner" parent="Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:background">@drawable/bg_edit_text_intro</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColorHint">@color/black</item>
+
+    </style>
+
+    <style name="TextAppearance.XXXXXL">
+        <item name="android:textSize">@dimen/text_size_xxxxxl</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.XXXXL">
+        <item name="android:textSize">@dimen/text_size_xxxxl</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.XXXL">
+        <item name="android:textSize">@dimen/text_size_xxxl</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.XXL">
+        <item name="android:textSize">@dimen/text_size_xxl</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.XL">
+        <item name="android:textSize">@dimen/text_size_xl</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.Large">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <!--<item name="textColorHighlight">?android:attr/textColorHighlight</item> -->
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+        <!-- <item name="textColorLink">?android:attr/textColorLink</item>  -->
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

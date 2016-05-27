@@ -142,7 +142,6 @@ public class MainActivity extends Activity_AsyncScanHeartRateSampler implements 
 
     private Timer timer;
     //private Chronometer stopWatch;
-    private long secondsCount;
 
     static {
         System.loadLibrary("ImageProc");
